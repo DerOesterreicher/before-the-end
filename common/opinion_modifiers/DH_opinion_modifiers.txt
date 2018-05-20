@@ -1,0 +1,10 @@
+opinion_modifiers = {
+# German NFT modifiers	
+
+# Generic Diplomatic Opinion Modifiers
+	DH_similar_ideologies = { value = 20 }
+	DH_different_ideologies = { value = -30 }
+	DH_same_ideologies = { value = 40 }
+	DH_democractic_ideologies = { value = 30 }
+
+}
