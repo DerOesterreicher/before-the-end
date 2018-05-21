@@ -1,0 +1,39 @@
+state={
+	id=756
+	name="STATE_756"
+	provinces={
+		4783 5031 7727 7803 8102 10899 10770 12750 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	history={
+		owner = MEN
+		add_core_of = MEN
+		add_core_of = MON
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+}

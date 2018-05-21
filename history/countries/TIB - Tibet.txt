@@ -1,0 +1,191 @@
+﻿capital = 322
+
+oob = "TIB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "TIB_1939"
+	set_technology = {
+		#doctrines
+		air_superiority = 1
+
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		synth_oil_experiments = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+
+		parties = {	
+			fascist = { popularity = 0 }		
+			paternal_autocrat = { popularity = 51.12 }	
+			nationalist = { popularity = 12.21 }	
+			populist = { popularity = 0 }		
+			conservative = { popularity = 3.33 }		
+			liberal = { popularity = 5.21 }		
+			social_democrat = { popularity = 21.11 }		
+			left_wing_radical = { popularity = 1.12 }		
+			leninist = { popularity = 0 }		
+			stalinist = { popularity = 5.90 }	
+		}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ngapoi Ngawang Jigme"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Ngapoi_Ngawang_Jigme.dds"
+	expire = "1965.1.1"
+	ideology = clerical_fascism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tashi Wangdi"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Tashi_Wangdi.dds"
+	expire = "1965.1.1"
+	ideology = nationalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tenzin Gyatso"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Tenzin_Gyatso.dds"
+	expire = "1965.1.1"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lobsang Tenzin"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Lobsang_Tenzin.dds"
+	expire = "1965.1.1"
+	ideology = right_wing_populism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lobsang Sangay"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Lobsang_Sangay.dds"
+	expire = "1965.1.1"
+	ideology = market_social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tashi Wangdu"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Tashi_Wangdu.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gyalo Thondup"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Gyalo_Thondup.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juchen Thubten Namgyal"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Juchen_Thubten_Namgyal.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "He Luli"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_He_Luli.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Legqog"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Legqog.dds"
+	expire = "1965.1.1"
+	ideology = maoism
+	traits = {
+		#
+	}
+}
+
+#create_country_leader = {
+#	name = "Jamphel Yeshe Gyaltsen"
+#	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+#	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+#	expire = "1965.1.1"
+#	ideology = monarchism
+#	traits = {
+#		#
+#	}
+#}

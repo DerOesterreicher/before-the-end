@@ -1,0 +1,211 @@
+﻿capital = 622
+
+oob = "PRC_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	oob = "PRC_1939"
+
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+
+	add_ideas = {
+		#laws
+		tot_economic_mobilisation
+		service_by_requirement
+		closed_economy
+	}
+	
+	set_technology = {
+		tech_mountaineers = 1
+		#doctrines
+		air_superiority = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_plant = 1
+		improved_oil_plant = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+		concentrated_industry3 = 1
+	}
+}
+
+set_politics = {
+
+		parties = {	
+			fascist = { popularity = 0 }		
+			paternal_autocrat = { popularity = 0 }	
+			nationalist = { popularity = 0 }	
+			populist = { popularity = 2.13 }		
+			conservative = { popularity = 5.51 }		
+			liberal = { popularity = 5.50 }		
+			social_democrat = { popularity = 8.79 }		
+			left_wing_radical = { popularity = 3.33 }		
+			leninist = { popularity = 1.12 }		
+			stalinist = { popularity = 73.62 }	
+		}
+	
+	ruling_party = stalinist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	closed_economy
+	service_by_requirement
+	tot_economic_mobilisation
+}
+
+add_opinion_modifier = { target = CHI modifier = hostile_status }
+
+#create_country_leader = {
+#	name = "Mao Zedong"
+#	desc = "POLITICS_MAO_ZEDONG_DESC"
+#	picture = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+#	expire = "1965.1.1"
+#	ideology = marxism
+#	traits = {
+#		cornered_fox
+#	}
+#}
+
+create_country_leader = {
+	name = "Luo Haocai"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Luo_Haocai.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Deng Xiaoping"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Deng_Xiaoping.dds"
+	expire = "1965.1.1"
+	ideology = dictatorship
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cai Zimin"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Cai_Zimin.dds"
+	expire = "1965.1.1"
+	ideology = nationalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Qiao Shi"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Qiao_Shi.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_populism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Wan Exiang"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Wan_Exiang.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Cheng Siwei"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Cheng_Siwei.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Xu Jialu"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Xu_Jialu.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Fei Xiaotong"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Fei_Xiaotong.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jiang Zemin"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Jiang_Zemin.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Li Peng"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Li_Peng.dds"
+	expire = "1965.1.1"
+	ideology = maoism
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Mao Zedong"
+	portrait_path = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+	traits = { defensive_doctrine }
+	skill = 4
+}
