@@ -1,0 +1,18 @@
+on_actions = {
+	
+
+#used when puppeting in a peace conference
+#ROOT = nation being puppeted, FROM = overlord
+on_startup = {
+    effect = {
+        if = {
+            limit = {
+                tag = BLR
+				is_subject_of = SOV
+            }
+            set_cosmetic_tag = BLR_SOV
+        }
+    }
+}
+
+}
